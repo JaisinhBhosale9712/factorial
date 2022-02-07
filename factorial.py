@@ -6,7 +6,6 @@ username = 'admin'
 password = 'admin' # Sensitive
 usernamePassword = 'user=admin&password=admin' # Sensitive
 def fact(n):
-    pickle.load("test")
     if n==0:
       return 1
     return n*fact(n-1)
